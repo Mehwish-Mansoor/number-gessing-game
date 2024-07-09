@@ -1,4 +1,4 @@
-#! /usr/bin/env node
+#! usr/bin/env node
 import inquirer from "inquirer";
 console.log("welcome to cli number guessing game");
 const randomNumber = Math.floor(Math.random() * 3 + 1);
